@@ -192,7 +192,7 @@ def main(args):
 
     log.warning("Stratum proxy version: %s" % version.VERSION)
     # Setup periodic checks for a new version
-    test_update()
+    #test_update()
     
     if args.tor:
         log.warning("Configuring Tor connection")
